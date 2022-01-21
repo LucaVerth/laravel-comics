@@ -1,4 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap);body {
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Nunito", sans-serif;
   min-width: 1390px;
   overflow-x: hidden;
@@ -153,7 +159,7 @@ footer .footer-links {
   height: 400px;
 }
 footer .footer-links .links {
-  width: 40%;
+  width: 50%;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -164,7 +170,7 @@ footer .footer-links .links ul {
   justify-content: flex-start;
   flex-direction: column;
   list-style: none;
-  margin-top: 30px;
+  padding-top: 0.4rem;
 }
 footer .footer-links .links ul h4 {
   margin-bottom: 10px;
