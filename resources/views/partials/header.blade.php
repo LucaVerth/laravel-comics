@@ -5,7 +5,7 @@
         </div>
         <nav class="header-nav">
             <ul>
-                @foreach ($links as $link)
+                @foreach (config('headerlinks') as $link)
                     <li class="nav-item ">
                         <a class="nav-link" href="#">{{ $link['text'] }}</a>
                     </li>

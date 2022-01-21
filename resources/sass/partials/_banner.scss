@@ -1,0 +1,21 @@
+section {
+    background-color: #0282f9;
+    .central-banner {
+        @include container();
+        @include align();
+        justify-content: space-evenly;
+        height: 150px;
+    }
+}
+.shop-link {
+    @include align();
+    .shop-icon {
+        width: 50px;
+    }
+    .shop-text {
+        padding: 20px;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        color: #fff;
+    }
+}

@@ -13,4 +13,5 @@
             <div class="custom-btn"><a href="#">load more</a></div>
         </div>
     </main>
+    @include('partials.banner')
 @endsection

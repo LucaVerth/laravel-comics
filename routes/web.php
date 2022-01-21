@@ -14,11 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-    $data = config('headerlinks');
-    $data2 = config('comics');
-
-    return view('home', ['links' => $data], ['comics' => $data2]);
+    return view('home');
 })->name('home');
 
 
