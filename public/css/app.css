@@ -106,3 +106,9 @@ main .card-list {
   -o-object-position: center top;
      object-position: center top;
 }
+
+.card {
+  width: calc(16.6666666667% - 40px);
+  margin: 10px 10px;
+  padding-top: 40px;
+}

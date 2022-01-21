@@ -6,6 +6,7 @@
         <div class="main-container">
             <div class="card-list">
                 <div class="custom-btn-main">Current Series</div>
+                @include('partials.cards')
             </div>
         </div>
         <div class="load-btn">
