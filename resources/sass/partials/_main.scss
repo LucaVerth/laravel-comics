@@ -1,0 +1,38 @@
+main {
+    background-color: #000;
+    color: #fff;
+    .main-container {
+        position: relative;
+        @include container();
+        @include align();
+        min-height: 100px;
+    }
+    .load-btn {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        .custom-btn {
+            @include button();
+            width: 250px;
+            height: 40px;
+            background-color: #0282f9;
+        }
+    }
+    .custom-btn-main {
+        position: absolute;
+        top: -20px;
+        left: 50px;
+        @include button();
+        width: 200px;
+        height: 40px;
+        background-color: #0282f9;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .card-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

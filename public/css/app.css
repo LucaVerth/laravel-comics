@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap);body {
+  font-family: "Nunito", sans-serif;
+  min-width: 1390px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+header .head-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+header .head-wrapper .head-logo {
+  width: 75px;
+  height: 75px;
+}
+header .head-wrapper .header-nav {
+  margin: 0 auto;
+}
+header .head-wrapper ul {
+  list-style: none;
+}
+header .head-wrapper ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+header .head-wrapper ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header .head-wrapper ul li a a.active {
+  color: #0d7cec;
+}
+
+main {
+  background-color: #000;
+  color: #fff;
+}
+main .main-container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+main .load-btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+main .load-btn .custom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  background-color: #0282f9;
+}
+main .load-btn .custom-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+main .custom-btn-main {
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  background-color: #0282f9;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+main .custom-btn-main a {
+  text-decoration: none;
+  color: #fff;
+}
+main .card-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  height: 400px;
+}
+.jumbotron .jumbo-image {
+  width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}

@@ -1,0 +1,29 @@
+header {
+    .head-wrapper {
+        @include container();
+        @include align();
+        justify-content: space-between;
+        height: 100px;
+        .head-logo {
+            width: 75px;
+            height: 75px;
+        }
+        .header-nav{
+            margin: 0 auto;
+        }
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                padding: 1rem;
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    a.active {
+                        color: #0d7cec;
+                    }
+                }
+            }
+        }
+    }
+}
